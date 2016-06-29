@@ -19,7 +19,7 @@ namespace Topshelf.StarterPack.Core.Service.Periodic
         public int ServiceTimerPeriod { get; private set; }
 
         /// <summary>
-        /// Constructor accepting an <see cref="int"/> representing the number of minutes
+        /// Constructor accepting an <see cref="int"/> representing the number of miiliseconds
         /// set as the <see cref="ServiceTimer"/> period.
         /// </summary>
         /// <param name="period"></param>
@@ -66,7 +66,7 @@ namespace Topshelf.StarterPack.Core.Service.Periodic
             try
             {
                 Log.Info("Starting periodic service.");
-                ServiceTimer = new Timer(ServiceTimerPeriod * 60 * 1000)
+                ServiceTimer = new Timer(ServiceTimerPeriod)
                 {
                     AutoReset = false
                 };

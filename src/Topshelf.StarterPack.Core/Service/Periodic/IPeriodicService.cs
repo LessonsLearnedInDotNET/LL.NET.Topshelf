@@ -13,7 +13,7 @@ namespace Topshelf.StarterPack.Core.Service.Periodic
         Timer ServiceTimer { get; }
 
         /// <summary>
-        /// An <see cref="int"/> describing the number of minutes provided as
+        /// An <see cref="int"/> describing the number of milliseconds provided as
         /// the period of the <see cref="ServiceTimer"/>
         /// </summary>
         int ServiceTimerPeriod { get; }

@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Topshelf.StarterPack.Core", "Topshelf.StarterPack.Core\Topshelf.StarterPack.Core.csproj", "{D424E08E-2415-4CE7-991C-54F55ED8540F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Topshelf.StarterPack.ExamplePeriodicService", "Topshelf.StarterPack.ExamplePeriodicService\Topshelf.StarterPack.ExamplePeriodicService.csproj", "{83EE691C-96CB-4D93-9C79-A15542F990DE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{D424E08E-2415-4CE7-991C-54F55ED8540F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D424E08E-2415-4CE7-991C-54F55ED8540F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D424E08E-2415-4CE7-991C-54F55ED8540F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83EE691C-96CB-4D93-9C79-A15542F990DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83EE691C-96CB-4D93-9C79-A15542F990DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83EE691C-96CB-4D93-9C79-A15542F990DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83EE691C-96CB-4D93-9C79-A15542F990DE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
