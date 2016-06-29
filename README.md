@@ -1,6 +1,6 @@
-# LL.NET.Topshelf
-Starter pack for rapidly standing up a Topshelf service.
 ### LessonsLearnedIn.NET : Topshelf
+
+Starter pack for rapidly standing up a Topshelf service.
 
 ### Synopsis
 
@@ -11,7 +11,7 @@ This repository contains:
 
 ### Documentation
 
-See [wiki}(https://github.com/LessonsLearnedInDotNET/LL.NET.Topshelf/wiki) for explanation of examples and projects in detail.
+See [wiki](https://github.com/LessonsLearnedInDotNET/LL.NET.Topshelf/wiki) for explanation of examples and projects in detail.
 
 ### Motivation
 
